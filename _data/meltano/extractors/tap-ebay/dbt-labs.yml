@@ -1,5 +1,5 @@
 description: Order Data from Ebay Fulfillment
-label: ebay
+label: eBaY
 name: tap-ebay
 logo_url: /assets/logos/extractors/ebay.png
 namespace: tap_ebay
