@@ -25,7 +25,7 @@ jobs:
         id: changed_files
         uses: tj-actions/changed-files@v32
         with:
-          sha: "refs/pull/${{ github.event.pull_request.number }}/merge"
+          # sha: "refs/pull/${{ github.event.pull_request.number }}/merge"
           # sha: ${{ github.event.pull_request.head.sha }}
           json: "true"
 
